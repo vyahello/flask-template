@@ -7,6 +7,14 @@ This project contains a set of tools anf howto's to start working with [_flask_]
 > - `flask`
 > - `pytest`
 
+## Run application
+Run script from the root directory of the project and open `http://localhost:4000` url in your WEB browser:
+```bash
+~ flask run
+```
+
+Please modify `.flaskenv` file to set your own application environment variables.
+
 ## Contributing
 
 - clone the repository
