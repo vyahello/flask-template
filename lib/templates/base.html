@@ -3,9 +3,15 @@
 <html>
     <head> <!-- is a tab header -->
         <title> Flask template </title> <!-- is a text tab -->
+        <link href="//cdn.muicss.com/mui-0.9.39/css/mui.min.css" rel="stylesheet" type="text/css" /> <!--load CSS -->
+        <script src="//cdn.muicss.com/mui-0.9.39/js.mui.min.js"></script> <!-- load JS -->
     </head>
 
     <body>
+        <div class="mui-panel" style="background-color:lightblue"> Menu Bar: <!-- is a section in HTML document --> 
+            <button class="mui-btn mui-btn--raised"><a href="/index">Home</a><button> <!-- Menu button links to /index route -->
+            <button class="mui-btn mui-btn--raised"><a href="/details">Details</a><button> <!-- button links to /Details route -->
+        </div>
         {% block content %}{% endblock %} <!-- jinja template syntax, should have no spaces between '{ %' -->
     </body>
 </html>
