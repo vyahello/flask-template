@@ -13,6 +13,15 @@ Run script from the root directory of the project and open `http://localhost:400
 ~ flask run
 ```
 
+## Demo
+**Home page**
+
+![Screenshot](img/details.png)
+
+**Details page**
+
+![Screenshot](img/home.png)
+
 Please modify `.flaskenv` file to set your own application environment variables.
 
 ## Contributing
