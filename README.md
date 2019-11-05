@@ -1,6 +1,6 @@
 # Flask template
 
-This project contains a set of tools anf howto's to start working with [_flask_](http://flask.palletsprojects.com/en/1.1.x/) micro-web framework.
+This project contains a set of tools and howto's to start working with [_flask_](http://flask.palletsprojects.com/en/1.1.x/) micro-web framework.
 
 > Tools
 > - `python 3.8`
