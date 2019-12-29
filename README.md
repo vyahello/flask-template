@@ -9,7 +9,7 @@ This project contains set of instructions to start working with **flask** micro-
 **Tools**
 - [python 3.8](https://www.python.org/downloads/release/python-380)
 - [flask](http://flask.palletsprojects.com)
-- [pytest](https://www.pylint.org)
+- [pytest](https://pypi.org/project/pytest)
 
 ## Usage
 Run script from the root directory of the project and open [http://localhost:4000](http://localhost:4000) url in your WEB browser:
