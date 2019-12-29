@@ -19,8 +19,30 @@ Run script from the root directory of the project and open [http://localhost:400
 
 Please modify [.flaskenv](.flaskenv) file to set your own application environment variables.
 
+**Endpoints:**
+- `/` - get home page
+    ```bash
+    curl -X GET http://0.0.0.0:4000/
+    ```
+- `/details` - get details page
+    ```bash
+    curl -X GET http://0.0.0.0:4000/details
+    ```
+- `/joke` - get random joke
+    ```bash
+    curl -X GET http://0.0.0.0:4000/joke
+    ```
+- `/pokemon` - get pokemon list by color
+    ```bash
+    curl -X GET http://0.0.0.0:4000/pokemon
+    curl -X POST http://0.0.0.0:4000/pokemon
+    curl -X POST -d 'pokecolor=black' http://0.0.0.0:4000/pokemon
+    ```
+
+
 ## Demo
 > It's just a quick sample, please don't write front-end like this :)
+
 ![Screenshot](src/img/page.png)
 
 ### Run unittests

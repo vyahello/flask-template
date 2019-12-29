@@ -14,4 +14,3 @@ def test_date_show(date: Date) -> None:
 
 def test_date_name(date: Date) -> None:
     assert date.name() == "today"
-
