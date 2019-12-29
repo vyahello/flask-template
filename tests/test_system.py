@@ -1,6 +1,6 @@
 import pytest
 from datetime import date as date_
-from src.system import Date
+from src.support.system import Date
 
 
 @pytest.fixture(scope="module")

@@ -1,5 +1,6 @@
 from src import app, render_template
-from src.system import Date
+from src.support.data import get_random_joke
+from src.support.system import Date
 
 
 @app.route("/")
@@ -12,3 +13,8 @@ def home_page() -> None:
 @app.route("/details")
 def details_page() -> None:
     return render_template("details.html")
+
+
+@app.route("/joke")
+def random_joke() -> None:
+    return render_template("joke.html", joke=get_random_joke())
