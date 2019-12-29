@@ -1,4 +1,4 @@
-from lib import app, render_template
+from src import app, render_template
 
 
 @app.route("/")
@@ -10,4 +10,3 @@ def home_page() -> None:
 @app.route("/details")
 def details_page() -> None:
     return render_template("details.html")
-

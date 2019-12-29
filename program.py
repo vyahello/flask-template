@@ -1,2 +1,1 @@
-from lib import app
-
+from src import app
