@@ -20,8 +20,14 @@ Run script from the root directory of the project and open [http://localhost:400
 Please modify [.flaskenv](.flaskenv) file to set your own application environment variables.
 
 ## Demo
-> Note: it's just a quick sample, please don't write front-end like this :)
-![Screenshot](src/img/home.png)
+> It's just a quick sample, please don't write front-end like this :)
+![Screenshot](src/img/page.png)
+
+### Run unittests
+Please execute command below to launch unittests:
+```bash
+~ pytest -v
+```
 
 ### Meta
 
